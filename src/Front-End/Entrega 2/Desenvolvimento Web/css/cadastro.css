@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, 	#6ac8c5);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-family: Arial, sans-serif;
+  background-size: 300% 300%;
+  animation: movimentoGradiente 10s ease infinite;
+}
+
+header {
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 40px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.titulo {
+  margin: 30px 0 20px;
+  padding: 10px 30px;
+  background-color: #ffffff;
+  color: #178f89;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.cadastro-form {
+  background: linear-gradient(to bottom right, #ffffff, #e6fafd); 
+  border-radius: 20px;
+  padding: 50px 60px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  width: 90%;
+}
+
+
+.form-coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+}
+
+input, select {
+  padding: 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  outline: none;
+  
+}
+
+.perfil-info {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  width: 300px;
+}
+
+.botao-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-basis: 100%;
+}
+
+
+button {
+  background-color: #178f89;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 14px 100px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #0e0d0d;
+  transform: scale(1.03);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+main {
+  padding-top: 80px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+select::placeholder {
+  color: #888;
+}
+
+
+select:focus {
+  border: 1px solid #00bcd4;
+  background-color: #fff;
+  outline: none;
+}
+

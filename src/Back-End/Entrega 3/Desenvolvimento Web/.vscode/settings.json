@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1f1a4906-8183-4647-ac8e-b1070b6249c5/resourceGroups/Instituto_Criativo/providers/Microsoft.Web/sites/Instituto-Criativo-api",
+    "appService.deploySubpath": "."
+}

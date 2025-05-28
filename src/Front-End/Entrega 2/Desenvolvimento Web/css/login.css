@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: url("/src/Front-End/Imagens/pexels-chrisjohn-31464028.jpg") no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  
+  .login-container {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    padding: 40px;
+    width: 400px;
+    max-width: 90%;
+  
+  }
+  .login-container {
+    background: linear-gradient(to bottom right, #f0f0f0, #d4d4d4);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 400px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    background-color: #ff2d55;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-box input {
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: white;
+  }
+  
+  .login-box .link {
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  .login-box button {
+    background: #ff2d55;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-box button:hover {
+    background: #e02649;
+  }
+  .signup-box {
+    font-size: 13px;
+    text-align: left;
+    color: #333;
+  }
+  
+  .signup-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .cadastro-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cadastro-btn:hover {
+    background-color: #005dc1;
+  }
+  .link {
+    font-size: 13px;
+    color: #007bff !important;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .link:hover {
+    color: #007bff !important;
+    text-decoration: none;
+  }
+  .link {
+    font-size: 13px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
