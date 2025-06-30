@@ -1,7 +1,7 @@
 # 🎨 Instituto Criativo – Sistema de Gestão de Cursos e Eventos
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/27727ad3-c71d-4bc5-99c5-c8b667173a81" alt="Logo Instituto Criativo" width="250"/>
+  <img src="Imagens/Imagens/teste.jpg" alt="Tela Inicial do Sistema Instituto Criativo" width="1000"/>
 </p>
 
 <h3 align="center">Desenvolvido individualmente por <strong>Eduardo Araujo</strong></h3>
@@ -34,7 +34,7 @@ O **Sistema de Gestão do Instituto Criativo** é uma plataforma web desenvolvid
 
 | Camada          | Tecnologias                           |
 |-----------------|---------------------------------------|
-| **Frontend**    | HTML, CSS (planejado para React)     |
+| **Frontend**    | React.js                             |
 | **Backend**     | Node.js, Express, Sequelize          |
 | **Banco de Dados** | MySQL                             |
 | **Autenticação** | JWT, bcrypt                         |
@@ -45,9 +45,9 @@ O **Sistema de Gestão do Instituto Criativo** é uma plataforma web desenvolvid
 
 <b>README.MD</b>: Este arquivo que você está lendo, com todas as explicações do projeto.
 
-<b>Imagens/</b>: Pasta com as imagens usadas no sistema.
+<b>Imagens/</b>: Pasta com as imagens usadas no sistema, incluindo a tela inicial em `Imagens/Imagens/teste`.
 
-<b>src/</b>: Código-fonte, contendo controllers, models, rotas e middlewares.
+<b>src/</b>: Código-fonte do backend, contendo controllers, models, rotas e middlewares.
 
 <b>banco de dados.txt</b>: Script para criação do banco de dados MySQL.
 
@@ -63,6 +63,7 @@ O **Sistema de Gestão do Instituto Criativo** é uma plataforma web desenvolvid
 - ✅ Autenticação JWT para proteger rotas de administração
 - ✅ Validação obrigatória de imagem no cadastro
 - ✅ Layout inicial com carrossel e containers de cursos/eventos
+- ✅ Integração do frontend React com o backend Node.js
 - ✅ Segurança aprimorada com Helmet, CORS e rate limiter
 
 ---
@@ -75,11 +76,6 @@ Com este sistema, o Instituto Criativo poderá:
 - Aumentar a eficiência das operações do instituto
 - Proporcionar mais autonomia na gestão de conteúdos
 
-<p align="center">
- <img src="Imagens/Imagens/teste.jpg" alt="Tela Inicial do Sistema Instituto Criativo" width="1000"/>
-</p>
-
-
 ---
 
 ## 📋 Licença/License
@@ -90,5 +86,6 @@ Com este sistema, o Instituto Criativo poderá:
 
 ## 🎓 Referências
 
-Este projeto foi desenvolvido do zero, individualmente, com foco em boas práticas de desenvolvimento backend com Node.js, segurança com autenticação JWT, e organização de código para produção.
+Este projeto foi desenvolvido do zero, individualmente, com frontend em React.js e backend em Node.js, seguindo boas práticas de organização de código, segurança e integração completa entre as camadas.
+
 
