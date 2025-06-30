@@ -1,111 +1,93 @@
-# 📊 InnovateDesk – O Painel da Inovação
+# 🎨 Instituto Criativo – Sistema de Gestão de Cursos e Eventos
 
 <p align="center">
-  <a href="https://www.fecap.br/" target="_blank">
-    <img src="https://github.com/user-attachments/assets/27727ad3-c71d-4bc5-99c5-c8b667173a81" alt="Logo FECAP" width="250"/>
-  </a>
+  <img src="https://github.com/user-attachments/assets/27727ad3-c71d-4bc5-99c5-c8b667173a81" alt="Logo Instituto Criativo" width="250"/>
 </p>
 
-<h3 align="center">Desenvolvido por <strong>InovaTech</strong> | Fundação Escola de Comércio Álvares Penteado (FECAP)</h3>
+<h3 align="center">Desenvolvido individualmente por <strong>Eduardo Araujo</strong></h3>
 
 ---
 
-## 👥 Integrantes
+## 👤 Autor
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/eduardo-araujo-33a1a2278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Eduardo Araujo</a> &bull;
-  <a href="https://www.linkedin.com/in/luanroccha13?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Luan Rocha</a> &bull;
-  <a href="https://www.linkedin.com/in/oficialvitormelo/" target="_blank">Vitor Melo</a>
-</p>
-
----
-
-## 👨‍🏫 Orientadores
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/aimarlopes/" target="_blank">Aimar Lopes</a> &bull;
-  <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/" target="_blank">Eduardo Savino</a> &bull;
-  <a href="https://www.linkedin.com/in/francisco-escobar/" target="_blank">Francisco Escobar</a> &bull;
-  <a href="https://www.linkedin.com/in/jbuesso/" target="_blank">José Buesso</a> &bull;
-  <a href="https://www.linkedin.com/in/victorbarq/?originalSubdomain=br" target="_blank">Victor Rosetti</a>
+  <a href="https://www.linkedin.com/in/eduardo-araujo-33a1a2278/" target="_blank">Eduardo Araujo</a>
 </p>
 
 ---
 
 ## 🧠 Sobre o Projeto
 
-O **InnovateDesk** é um painel administrativo moderno e inovador, criado para atender às necessidades de gestão do [Instituto Criativo](https://www.institutocriativo.com.br). A proposta visa transformar a forma como a instituição organiza seus projetos e eventos, promovendo mais eficiência, transparência e inovação em sua atuação educacional e cultural.
+O **Sistema de Gestão do Instituto Criativo** é uma plataforma web desenvolvida individualmente para gerenciar cursos e eventos de forma eficiente, segura e moderna. O sistema oferece uma estrutura completa para cadastro, edição, exclusão, listagem e filtros de cursos e eventos, além de autenticação para proteger operações administrativas.
 
 ### 🎯 Objetivos
 
-- Modernizar a estrutura digital do Instituto Criativo
-- Oferecer uma navegação intuitiva e informativa para o público
-- Centralizar a gestão de eventos, cursos e arrecadações
-- Agilizar a tomada de decisões com indicadores e relatórios
+- Modernizar a gestão do Instituto Criativo
+- Facilitar o gerenciamento de eventos e cursos
+- Implementar autenticação segura para áreas administrativas
+- Permitir upload de imagens para cursos e eventos
+- Adicionar filtros, paginação e ordenação para melhorar a experiência do usuário
 
 ---
 
 ## 💻 Tecnologias Utilizadas
 
-| Camada         | Tecnologias |
-|----------------|-------------|
-| **Frontend**   | React.js    |
-| **Backend**    | .NET        |
-| **Banco de Dados** | MySQL   |
-| **Autenticação** | Sistema de login e controle de acesso (admin restrito) |
+| Camada          | Tecnologias                           |
+|-----------------|---------------------------------------|
+| **Frontend**    | HTML, CSS (planejado para React)     |
+| **Backend**     | Node.js, Express, Sequelize          |
+| **Banco de Dados** | MySQL                             |
+| **Autenticação** | JWT, bcrypt                         |
+| **Outros**      | Multer (upload de imagens), dotenv, Helmet, CORS, rate limiter |
 
 ---
 
-# 🛠 Estrutura de Pasta
--Raiz<br>
-|<br>
-|-->documentos<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+<b>README.MD</b>: Este arquivo que você está lendo, com todas as explicações do projeto.
 
-Há também 4 pastas que seguem da seguinte forma:
+<b>Imagens/</b>: Pasta com as imagens usadas no sistema.
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
+<b>src/</b>: Código-fonte, contendo controllers, models, rotas e middlewares.
 
-<b>imagens</b>: Imagens do sistema
+<b>banco de dados.txt</b>: Script para criação do banco de dados MySQL.
 
-<b>src</b>: Pasta que contém o código fonte.
+---
 
+## 📊 Funcionalidades do Sistema
 
-## 📊 Funcionalidades do Dashboard
-
-- 📅 Visualização de cronogramas de eventos e cursos  
-- 📈 Monitoramento de indicadores e métricas de desempenho  
-- 🧾 Geração de relatórios e insights gerenciais  
-- 👥 Gestão de participantes e voluntários  
-- 📦 Controle de projetos em andamento e finalizados  
-- 💰 Acompanhamento das arrecadações  
+- ✅ Cadastro, edição e exclusão de cursos com upload de imagem
+- ✅ Cadastro, edição e exclusão de eventos com upload de imagem
+- ✅ Listagem de cursos e eventos
+- ✅ Filtros por título, data e local nos eventos
+- ✅ Ordenação por data e paginação de eventos
+- ✅ Autenticação JWT para proteger rotas de administração
+- ✅ Validação obrigatória de imagem no cadastro
+- ✅ Layout inicial com carrossel e containers de cursos/eventos
+- ✅ Segurança aprimorada com Helmet, CORS e rate limiter
 
 ---
 
 ## 🌍 Impacto Esperado
 
-Com o **InnovateDesk**, o Instituto Criativo estará mais preparado para ampliar seu alcance, garantir uma gestão mais colaborativa e oferecer experiências mais ricas à comunidade. A solução proporcionará:
-
-- Maior organização interna  
-- Transparência nas ações  
-- Eficiência na execução de atividades  
-- Um ambiente propício à inovação contínua  
-
+Com este sistema, o Instituto Criativo poderá:
+- Gerenciar cursos e eventos com mais organização e segurança
+- Melhorar a experiência de usuários e administradores
+- Aumentar a eficiência das operações do instituto
+- Proporcionar mais autonomia na gestão de conteúdos
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/0040ebea-0fac-49c3-800f-a4504b36dfba" alt="Page Inicial" width="1000"/> </p>
+ <img src="https://github.com/user-attachments/assets/0040ebea-0fac-49c3-800f-a4504b36dfba" alt="Tela Inicial do Sistema" width="1000"/>
+</p>
 
-
+---
 
 ## 📋 Licença/License
 
-[InnovateDesk – O Painel da Inovação](#) by [Eduardo Araujo](#), [Luan Rocha](#) e [Vitor Melo](#) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+[Instituto Criativo – Sistema de Gestão de Cursos e Eventos](#) by [Eduardo Araujo](https://www.linkedin.com/in/eduardo-araujo-33a1a2278/) is licensed under [MIT License](https://opensource.org/licenses/MIT).
+
+---
 
 ## 🎓 Referências
+
+Este projeto foi desenvolvido do zero, individualmente, com foco em boas práticas de desenvolvimento backend com Node.js, segurança com autenticação JWT, e organização de código para produção.
+
