@@ -76,7 +76,7 @@ Com este sistema, o Instituto Criativo poderá:
 - Proporcionar mais autonomia na gestão de conteúdos
 
 <p align="center">
- <img src="Imagens/Imagens/teste" alt="Tela Inicial do Sistema Instituto Criativo" width="1000"/>
+ <img src="Imagens/Imagens/teste.jpg" alt="Tela Inicial do Sistema Instituto Criativo" width="1000"/>
 </p>
 
 
